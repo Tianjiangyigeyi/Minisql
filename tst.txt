@@ -1,0 +1,6 @@
+create database db;
+use db;
+create table tb (a int, b char(10), c float, primary key (a, b));
+insert into tb values (1, "ewrg", 1.1);
+select * from tb;
+quit;
